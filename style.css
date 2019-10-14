@@ -2,16 +2,19 @@
     box-sizing: border-box;
 }
 body html {
+    width: 860px;
     margin: 0;
     padding: 0;  
 }
-nav {
-    position: relative;
+.hash {
+    background-image: url('./assets/hr-img.png');
+    height: 25px;
+    width: 90%;
+}
+.top {
     display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0 20px;
-   border-bottom: 2px dashed darkgray;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 .logo {
     margin-top: 30px;
@@ -19,65 +22,79 @@ nav {
 #top-header {
     font-family: 'Satisfy', cursive;
     font-size: 2rem;
-    margin-left: 40px;
+    padding-left: 10px;
 }
-h3 {
+.top1 {
+display: flex;
+justify-content: flex-start;
+align-items: flex-end;
+
    font-size: 0.6rem;
     font-family: 'Cinzel', serif;
     font-weight: 300; 
-    margin-left: 30px;
+
 } 
 input {
     display: inline-flex;
     flex-wrap: wrap;
-    /* justify-content: center;
-    align-items: center; */
 }
 #recipe {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
     background: url(./assets/list-bg.png)center no-repeat;
     width: 100%;
     height: 300px;
     text-align: center;
     margin-top: 50px;
 }
-input {
-    flex-wrap: wrap;
-    justify-content: space-around;
+.recipe-background {
+    display: flex;
+    justify-content: center;
     align-items: center;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
 }
-
-/* #icons {
-
-list-style: none;
-display: flex;
-justify-content: space-around;
-align-items: flex-end;
+nav ul{
+ display: flex;
+ justify-content: flex-end;
+ align-items: flex-start;
+  list-style: none;
+  margin: 0 2px;
+  padding: 30px;
 }
-.icon {
-    display:inline-block;
-    position:absolute;
-  
-} */
-ul{
-padding: 0 0;
-margin: 0 0;
-list-style: none;
-width: 600px;
-height: 30px;
+nav li {
+   display: inline-block;
+   padding: 5px 5px;
 }
-
-ul li{
-width: 300px;
-display: inline-block;
-float: left;
-text-align: right;
-line-height: 30px;
+header {
+    display: flex;
+}
+#main-header {
+    font-family: 'Oswald', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.date {
+    font-size: 0.9rem;
+}
+#print {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px;
 }
 
 .img {
     background: url('./assets/choco-pizza.png')center no-repeat;
     width: 100%vh;
     height: 600px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+article {
+    padding: 30px;
 }
 #author {
     display: flex;
