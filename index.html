@@ -5,21 +5,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
-<img src="./assets/small-logo.png" alt="fork-knife-logo">
-<nav id="top-header">Delicious
-    <h3>The Best food blog on the web</h3>
-    <ul>
-        <li><img src="./assets/fb-icon.png" alt=facebook-logo></li>
-        <li><img src="./assets/twit-icon.png" alt=twitter-folder></li>
-        <li><img src="./assets/gp-icon.png" alt=insta-gram-icon></li>
-        <li><img src="./assets/insta-icon.png" alt=logo></li>
-        <li><img src="./assets/flic-icon.png" alt=flicker-icon></li>
-        <li><img src="./assets/pint-icon.png" alt=pintrest-log></li>
-        <li><img src="./assets/rss-icon.png" alt=wifi-logo></li>
-        <li><img src="./assets/mail-icon.png" alt=mail-icon></li>
+
+<img src="./assets/small-logo.png" class="logo" alt="fork-knife-logo">
+<h1 id="top-header">Delicious</h1>
+<h3>The Best food blog on the web</h3>
+<nav>
+  
+    <ul id="icons">
+        <li><img src="./assets/fb-icon.png" class="icon" alt=facebook-logo></li>
+        <li><img src="./assets/twit-icon.png" class="icon" alt=twitter-folder></li>
+        <li><img src="./assets/gp-icon.png" class="icon" alt=insta-gram-icon></li>
+        <li><img src="./assets/insta-icon.png" class="icon" alt=logo></li>
+        <li><img src="./assets/flic-icon.png" class="icon" alt=flicker-icon></li>
+        <li><img src="./assets/pint-icon.png" class="icon" alt=pintrest-log></li>
+        <li><img src="./assets/rss-icon.png" class="icon" alt=wifi-logo></li>
+        <li><img src="./assets/mail-icon.png" class="icon" alt=mail-icon></li>
     </ul>
 </nav>
 <header id="main-header">Chocolate Pizza
@@ -28,7 +32,8 @@
         <img src="./assets/print-icon.png"></div>
 </header>
 <article>
-    <img src="./assets/choco-pizza.png" alt="fig pizza image" id="main-image">
+    <div class="img"></div>
+    <!-- <img src="./assets/choco-pizza.png" alt="fig pizza image" id="main-image"> -->
     For the fig-swirl: Melt butter over medium heat in a saucepan. Add brown sugar and stir to dissolve.
     Halve all the figs
     and toss in the saucepan with water and lemon juice. Cook over medium heat, stirring frequently, until you have a
@@ -45,8 +50,6 @@
     least two hours before serving.</article>
 <section id="recipe">
     <div class="recipe-background">
-        
-    </div>
     <input type="checkbox"> 1&frac12; cups milk
     <input type="checkbox"> &frac12; cup mascarpone
     <input type="checkbox">&frac12; tsp pink salt
@@ -59,6 +62,7 @@
     <input type="checkbox">1 lemon, juiced
     <input type="checkbox">2 tbsp. butter
     <input type="checkbox">1 cup honey roasted pecans, roughly chopped
+    </div>
 </section>
 <section id="author">
     <img src="./assets/van-pic.png">
